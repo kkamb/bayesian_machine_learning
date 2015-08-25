@@ -1,4 +1,5 @@
-# DP03.r
+# from David Dunson's code
+
 # Fit Simple DP Model to 3-component normal mixture
 # Sample Data from y=.1xN(-3,.5) + .5xN(0,.75)+.4xN(3,1) 
 # Compares with DPpackage
