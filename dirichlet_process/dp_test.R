@@ -1,5 +1,7 @@
-## A Dirichlet process model ##
-## test to see how well a DP model can estimate the simulated y below
+# A Dirichlet process model #
+# test to see how well a DP model can estimate the simulated y below
+# adapted from Surya Tokdar's code
+
 y=.75*rnorm(100,0,1)+.15*rnorm(100,5,10)+.1*rnorm(100,-1,1) #simulate y
 n=length(y)
 nsim=200; nburn=100; nstore=100 #MCMC run parameters
