@@ -1,3 +1,5 @@
+#adapted from Surya Tokdar's code
+
 dr <- read.csv("mortality.csv")
 dr <- na.omit(dr)
 View(dr)
